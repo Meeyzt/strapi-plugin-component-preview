@@ -1,5 +1,5 @@
 {
-  "name": "@pathi/strapi-plugin-component-preview",
+  "name": "strapi5-component-preview",
   "version": "1.0.0",
   "description": "A Strapi 5 plugin to preview dynamic zone components in real-time while editing pages",
   "keywords": [
