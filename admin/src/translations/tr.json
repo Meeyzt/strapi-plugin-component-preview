@@ -1,0 +1,9 @@
+{
+  "plugin.name": "Bileşen Önizleme",
+  "plugin.description": "Sayfaları düzenlerken bileşenleri gerçek zamanlı önizleyin",
+  "preview.button": "Önizle",
+  "preview.title": "Bileşen Önizleme",
+  "preview.loading": "Önizleme yükleniyor...",
+  "preview.select": "Önizlemek için bir bileşen seçin",
+  "preview.noData": "Önizleme için veri bulunamadı"
+}

@@ -1,0 +1,67 @@
+{
+  "name": "@pathi/strapi-plugin-component-preview",
+  "version": "1.0.0",
+  "description": "A Strapi 5 plugin to preview dynamic zone components in real-time while editing pages",
+  "keywords": [
+    "strapi",
+    "strapi-plugin",
+    "strapi5",
+    "component-preview",
+    "live-preview",
+    "dynamic-zone",
+    "page-builder"
+  ],
+  "strapi": {
+    "displayName": "Component Preview",
+    "name": "component-preview",
+    "description": "Preview your page components in real-time with demo data support",
+    "kind": "plugin"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "@strapi/strapi": "^5.0.0",
+    "@strapi/design-system": "^2.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "author": "Pathi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pathi/strapi-plugin-component-preview.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pathi/strapi-plugin-component-preview/issues"
+  },
+  "homepage": "https://github.com/pathi/strapi-plugin-component-preview#readme",
+  "exports": {
+    "./strapi-admin": {
+      "source": "./admin/src/index.ts",
+      "import": "./dist/admin/index.mjs",
+      "require": "./dist/admin/index.js",
+      "default": "./dist/admin/index.js"
+    },
+    "./strapi-server": {
+      "source": "./server/src/index.ts",
+      "import": "./dist/server/index.mjs",
+      "require": "./dist/server/index.js",
+      "default": "./dist/server/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "admin",
+    "server",
+    "dist"
+  ],
+  "scripts": {
+    "build": "strapi-plugin build",
+    "watch": "strapi-plugin watch",
+    "verify": "strapi-plugin verify"
+  },
+  "devDependencies": {
+    "@strapi/sdk-plugin": "^5.0.0",
+    "typescript": "^5.0.0"
+  }
+}

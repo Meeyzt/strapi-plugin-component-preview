@@ -1,0 +1,9 @@
+{
+  "plugin.name": "Component Preview",
+  "plugin.description": "Preview components in real-time while editing pages",
+  "preview.button": "Preview",
+  "preview.title": "Component Preview",
+  "preview.loading": "Loading preview...",
+  "preview.select": "Select a component to preview",
+  "preview.noData": "No data available for preview"
+}
