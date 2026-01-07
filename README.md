@@ -177,3 +177,4 @@ Created by [Pathi](https://github.com/pathi)
 ---
 
 **Note:** This plugin requires a frontend application to render the components. The plugin sends component data via URL parameters to your frontend preview page.
+# strapi-plugin-component-preview
