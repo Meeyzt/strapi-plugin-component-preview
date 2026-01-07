@@ -19,13 +19,7 @@ A Strapi 5 plugin that adds real-time component preview functionality to the Con
 ### Using npm
 
 ```bash
-npm install @pathi/strapi-plugin-component-preview
-```
-
-### Using yarn
-
-```bash
-yarn add @pathi/strapi-plugin-component-preview
+npm i strapi5-component-preview
 ```
 
 ### Manual Installation
