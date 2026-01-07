@@ -166,7 +166,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ## 🙏 Credits
 
-Created by [Pathi](https://github.com/pathi)
+Created by [Meeyzt](https://github.com/meeyzt)
 
 ---
 
